@@ -1,0 +1,28 @@
+{
+  "name": "nextein-plugin-toc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nextein",
+    "plugin",
+    "toc"
+  ],
+  "author": {
+    "name": "Maximiliano Fierro",
+    "email": "elmasse@gmail.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "unist-util-visit": "^3.1.0"
+  },
+  "peerDependencies": {
+    "nextein": "^3.0.0"
+  },
+  "devDependencies": {
+    "nextein": "^3.0.0"
+  }
+}
