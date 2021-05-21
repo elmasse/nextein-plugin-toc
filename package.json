@@ -17,7 +17,7 @@
   },
   "license": "ISC",
   "dependencies": {
-    "unist-util-visit": "^3.1.0"
+    "unist-util-visit": "^2.0.2"
   },
   "peerDependencies": {
     "nextein": "^3.0.0"
