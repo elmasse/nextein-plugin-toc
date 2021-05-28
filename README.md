@@ -33,7 +33,11 @@ module.exports = withNextein({
 
 ## Pre-Requisites
 
-In order to get a TOC with `href` values you can use `rehype-autolink-headings` plugin in the `nextein-plugin-markdown` configuration.
+In order to get a TOC with `href` values you can use `rehype-autolink-headings` and `rehype-slug` plugins in the `nextein-plugin-markdown` configuration. 
+
+```
+npm i rehype-slug rehype-autolink-headings
+```
 
 ```js
 
@@ -43,7 +47,10 @@ nextein: {
       {
         name: 'nextein-plugin-markdown', 
         options: {
-          rehype: ['rehype-autolink-headings']
+          rehype: [
+            'rehype-slug',
+            'rehype-autolink-headings'
+          ]
         }
       },
       {
