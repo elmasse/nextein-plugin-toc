@@ -20,7 +20,7 @@
     "unist-util-visit": "^2.0.2"
   },
   "peerDependencies": {
-    "nextein": "^3.0.0"
+    "nextein": "^3.0.0 || ^4.0.0"
   },
   "devDependencies": {
     "nextein": "^3.0.0"
